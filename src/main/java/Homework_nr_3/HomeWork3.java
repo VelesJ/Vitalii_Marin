@@ -1,17 +1,14 @@
 package Homework_nr_3;
-// import java.util.Random;
+import java.util.Random;
 
 public class HomeWork3 {
     public static void main(String[] args){
-        /* // Генерация чисел от 1 до 12
+        // Генерация чисел от 1 до 12
         Random random_month = new Random();
         int month = random_month.nextInt(12) + 1;
-           // Потом я понял что лучше не выпендриваться и сделать как в ТЗ
-        */
 
         // 4 пункт домашнего задания
 
-        int month = 3;
         switch(month){
             case 1:
                 System.out.print("January");
